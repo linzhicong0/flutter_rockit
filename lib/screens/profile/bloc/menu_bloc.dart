@@ -5,7 +5,7 @@ part 'menu_event.dart';
 part 'menu_state.dart';
 
 class MenuBloc extends Bloc<MenuEvent, MenuState> {
-  MenuBloc() : super(const MenuState(selectedMenu: menuHome)) {
+  MenuBloc() : super(MenuState(selectedMenu: menuItems[0])) {
     on<MenuItemClick>(onMenuItemClick);
   }
 
