@@ -1,8 +1,6 @@
 # Rockit Flutter
 
-<img src="./screen1.png" width="200">
-<img src="./screen2.png" width="200">
-<img src="./screen3.png" width="200">
+<img src="./screen1.png" width="200"><img src="./screen2.png" width="200"><img src="./screen3.png" width="200">
 
 ## Description
 
@@ -10,13 +8,17 @@ A new Flutter project that's for learning purpose. Since a best way to learn som
 
 In this app, it includes some features:
 - State Management:
+    
     using flutter_bloc as the state management plugin.
 - Animation: 
+    
     using the AnimationSwitcher to fade in and out the text in Splash screen when clicking the "Next" button.
 - Navigation: 
+    
     using Navigator.pushReplacement to navigate to a new screen and disable the "go back" function.
 
 ## Getting Started
 
 - Start your simulator
+
 - Run and go ahead
