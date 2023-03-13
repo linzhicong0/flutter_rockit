@@ -1,17 +1,18 @@
-
 import 'package:flutter/material.dart';
+
 class MenuItem extends StatelessWidget {
   final String text;
   final bool selected;
+  final void Function()? onTap;
 
-  MenuItem({super.key, required this.text, this.selected = false});
+  MenuItem({super.key, required this.text, this.onTap, this.selected = false});
 
   @override
   Widget build(BuildContext context) {
     return Material(
       color: Colors.transparent,
       child: InkWell(
-        onTap: () {},
+        onTap: onTap,
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 8),
           child: Row(
